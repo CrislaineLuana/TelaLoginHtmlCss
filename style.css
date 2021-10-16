@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Imagem */
+
+.img {
+    width: 400px;
+    height: 500px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+/* Centralizando itens na tela */
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    background-color: rgb(179, 177, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+}
+
+/* Login */
+
+.login {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.login h2 {
+    font-size: 3rem;
+    align-self: flex-start;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(29, 28, 28);
+    border-bottom: 2px solid rgb(48, 48, 48);
+}
+
+.login label {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(29, 28, 28);
+    margin-bottom: 0.5rem;
+}
+
+.login input {
+    margin-bottom: 4rem;
+    height: 3rem;
+    border: none;
+    border-bottom: 1px solid rgb(29, 28, 28);
+    background-color: transparent;
+    outline: none;
+    transition: all 300ms ease;
+}
+
+.login input:hover{
+    border-bottom: 1px solid #C13584;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.links a {
+    font-size: 1.3rem;
+    color: rgb(29, 28, 28);
+    margin-bottom: 2rem;
+    transition: all 300ms ease;
+}
+
+.links a:hover{
+    color: #C13584;
+}
+
+.login button {
+    margin-bottom: 0.4rem;
+    height: 4rem;
+    width: 100%;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.4rem;
+    border-radius: 4px;
+
+}
+
+span {
+    margin-left: 1rem;
+}
+
+.btn {
+    background-color: rgba(0, 0, 175, 0.5);
+    transition: all 500ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 175, 0.4);
+}
+
+.facebook {
+    background-color: #3b5998;
+    transition: all 500ms ease-in-out;
+}
+
+.facebook:hover{
+    background-color: #4d6fb9;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #fd1d1d);
+    transition: all 500ms ease-in-out;
+}
+
+
+.instagram:hover{
+    background: linear-gradient(47deg, #405DE6, #833AB4, #C13584, #fd1d1d, #E1306C);
+}
